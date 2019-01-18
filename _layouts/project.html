@@ -1,0 +1,83 @@
+---
+layout: default
+
+
+---
+<div class="section-hero projekt-detail">
+  <div class="container">
+    <a href="/projekte#projekte" class="back-link"><i class="icon-arrow icon-arrow-small icon-arrow-left"></i>Zurück</a>
+    
+    <h2>{{ page.title}}</h2>
+    <p class="intro-txt">
+      {{ page.subtitle }}      
+    </p>
+    <p class="tags">
+      {% for tag in page.tags %}
+        <span class="tag">{{tag}}</span>
+      {% endfor %}
+    </p>
+
+    
+    <div class="row">
+      <div class="col-12"><img src="{{ page.image_path}}"></div>
+    </div>
+    <div class="divider"></div>
+  </div>
+</div>
+
+
+
+<section class="projekte-content">
+  <div class="container">
+    {%if page.youtube_id %}
+      <div class="row">
+        <div class="col-12">
+          <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="//www.youtube.com/embed/{{ page.youtube_id }}"></iframe>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    <div class="row">
+      <div class="col-md-10">
+        {{ content }}      
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="projekte" class="content-section lighter-bg">
+  <div class="container">
+    <h2 class="section-header editable">Weitere Projekte</h2>
+  </div>
+  <div class="container">
+    <div class="projekte-wrapper row">
+
+      {% for project in site.projects | limit:3 %}
+        <div class="col-md-4">
+          {% include project-item.html %}
+        </div>
+
+      {% endfor %}
+
+
+    </div>
+  </div>
+</section> -->
+
+
+<section id="jumper-section" class="content-section">
+  <div class="container">
+    <h2 class="section-header editable">Oder lernen Sie uns weiter kennen</h2>
+    <div class="arrow-divider text-center"><img src="../img/icons/arrow-down-blue.svg"></div>
+    <div class="row">
+      
+      {% include jumper-item.html link_title="Die Agentur" link_path="/agentur" img_path="/img/wortpaare/eindrucksvoll-punkt-neg.svg" %}
+      
+      {% include jumper-item.html link_title="Leistungen" link_path="/leistungen" img_path="/img/wortpaare/effektiv-pulsierend-neg.svg" %}
+      
+      {% include jumper-item.html link_title="Kontakt" link_path="/kontakt" img_path="/img/wortpaare/einfach-persoenlich-neg.svg" %}
+      
+    </div>
+  </div>
+</section>

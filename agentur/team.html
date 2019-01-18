@@ -1,0 +1,46 @@
+---
+layout: agentur_sub
+body_class: team
+wortpaar: eingespielt-passioniert
+title: Team – mit Know-how und Leidenschaft
+description: Rund 150 Erfahrung in der Werbung und hungrig wie am 1. Tag ist unser Team das Schmierfett für Ihre Erfolgskette.
+intro_text: '<p>Junge Wilde und erfahrene Hasen, national und international. Jeder Einzelne mit ausgeprägter Persönlichkeit und in der Lage, über den Tellerrand hinauszuschauen. Umfangreiches Know-how und insgesamt rund 150 Jahre Berufserfahrung in den unterschiedlichsten Branchen. Für Sie bedeutet das: tolle Ergebnisse. Für uns: jede Menge Spaß bei der Arbeit.</p>'
+hero_image_path: hero-team.jpg
+back_to_link_text: Zurück zu Leistungen
+---
+
+
+<section id="team" class="content-section white-bg">
+  <div class="container">
+    <h2 class="section-header editable">Unser Team</h2>
+  </div>
+  <div class="container">
+    
+    <div class="row">
+      {% for member in site.data.staff %}
+        {% if member.show %}
+          <div class="col-lg-4 col-6 staff-member-item">
+            <header class="staff-member-wortpaar">
+              <img src="{{ member.wortpaar_path }}" />
+            </header>
+            <div class="staff-member-img">
+              <img class="staff-member-gif" src="{{ member.gif_path }}" />
+              <img src="{{ member.image_path }}" />
+            </div>
+            <div class="staff-member-details">
+              <h3 class="red-txt">{{ member.name}}</h3>
+              <h4>{{ member.position}}</h4>
+              <p>{{member.description}}</p>
+              {% if member.tags %}<p>Bisher betreut: {%for tag in member.tags %}#{{tag}} {% endfor %}</p>{% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+  </div>
+  
+</section>
+
+
+

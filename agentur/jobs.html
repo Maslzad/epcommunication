@@ -1,0 +1,36 @@
+---
+layout: agentur_sub
+body_class: projekte
+wortpaar: extrem-plemplem
+title: 'Jobs: Offene Stellen sind hier zu finden'
+description: Sie möchten Teil unseres Teams werden? Dann geht`s hier weiter.
+intro_text: '<p>Wir lieben Kommunikation. Wir lieben unsere Kunden. Wir lieben unser Team. Wenn Du nicht nur mit Liebe, sondern auch Können punkten kannst, sollten wir uns kennenlernen. Bei uns hat jeder seinen Platz und seine Fähigkeiten – inklusive aller Schrullen und Macken, die uns zu dem machen, was wir sind. Ein sehr familiäres und bunt gemischtes Team, das den alltäglichen Agenturwahnsinn gemeinsam meistert.</p>'
+hero_image_path: hero-jobs.jpg
+---
+
+
+<section id="projekte" class="content-section white-bg">
+  <div class="container">
+    <h2 class="section-header editable">Wir suchen</h2>
+  </div>
+  <div class="container">
+    <div class="jobs-wrapper row">
+      
+      {% if site.jobs.length > 0 %}
+        {% for job in site.jobs %}
+      
+          <div class="col-md-12">
+            {% include job-item.html %}
+          </div>
+        {% endfor %}
+      {% else %}
+        <div class="col-md-12">
+          <p>Leider sind aktuell alle Stellen besetzt, aber eine überzeugende Initiativbewerbung bekommt immer eine Chance.</p>
+          <p>Bitte schicken an:<br /><a href="mailto:info@ep-communication.de">info@ep-communication.de</a>
+        </p></div>
+      {% endif %}
+      
+    </div>
+  </div>
+</section>
+

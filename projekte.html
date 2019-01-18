@@ -1,0 +1,45 @@
+---
+layout: first_stage
+body_class: projekte
+wortpaar: enthusiastisch-produktiv
+title: 'Projekte: Ein kleiner Einblick'
+description: Verschaffen Sie sich hier einen ersten Eindruck über unsere Projekte
+intro_text: "<p>Verschaffen Sie sich hier einen ersten Eindruck über unsere Projekte.   Noch besser – lernen Sie uns kennen und erfahren Sie Details!  \n0221/96 98 95 -90</p>"
+hero_image_path: hero-projekte.jpg
+---
+
+
+<section id="projekte" class="content-section white-bg">
+  <div class="container">
+    <h2 class="section-header editable">Eine Auswahl unserer Projekte</h2>
+  </div>
+  <div class="container">
+    <div class="projekte-wrapper row">
+
+        {% for project in site.projects %}
+          <div class="col-md-4 project-item-col">
+            {% include project-item.html %}
+          </div>
+        {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+<section id="jumper-section" class="content-section">
+  <div class="container">
+    <h2 class="section-header editable">Oder lernen Sie uns weiter kennen</h2>
+    <div class="arrow-divider text-center"><img src="../img/icons/arrow-down-blue.svg" /></div>
+    <div class="row">
+      
+      {% include jumper-item.html link_title="Die Agentur" link_path="/agentur" img_path="/img/wortpaare/eindrucksvoll-punkt-neg.svg" %}
+      
+      {% include jumper-item.html link_title="Leistungen" link_path="/leistungen" img_path="/img/wortpaare/effektiv-pulsierend-neg.svg" %}
+      
+      
+      {% include jumper-item.html link_title="Kontakt" link_path="/kontakt" img_path="/img/wortpaare/einfach-persoenlich-neg.svg" %}
+      
+
+    </div>
+  </div>
+</section>

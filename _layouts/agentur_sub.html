@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="section-hero" style="background-image: url(/img/{{ page.hero_image_path }})">
+  <div class="container">
+    <a href="/Agentur" class="back-link"><i class="icon-arrow icon-arrow-small icon-arrow-left"></i>Zurück zu Agentur</a>
+    <div class="wortpaar">
+      <img src="/img/wortpaare/{{page.wortpaar}}-pos.svg" height="170" />
+    </div>
+    <h2>{{ page.title}}</h2>
+    <div class="divider"></div>
+    <div class="intro-txt">
+      {{ page.intro_text }}      
+    </div>
+  </div>
+</div>
+
+{{ content }}
+
+
+<section id="jumper-section" class="content-section">
+  <div class="container">
+    <h2 class="section-header editable">Oder lernen Sie uns weiter kennen</h2>
+    <div class="arrow-divider text-center"><img src="../img/icons/arrow-down-blue.svg"></div>
+    <div class="row">
+      
+      
+      {% include jumper-item.html link_title="Leistungen" link_path="/leistungen" img_path="/img/wortpaare/effektiv-pulsierend-neg.svg" %}
+      
+       {% include jumper-item.html link_title="Projekte" link_path="/projekte" img_path="/img/wortpaare/enthusiastisch-produktiv-neg.svg" %}
+      
+      {% include jumper-item.html link_title="Kontakt" link_path="/kontakt" img_path="/img/wortpaare/einfach-persoenlich-neg.svg" %}
+      
+    </div>
+  </div>
+</section>

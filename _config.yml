@@ -1,0 +1,17 @@
+# Site settings
+title: Die Full Service Werbeagentur Köln – ep-communication.de
+
+description: "Strategie, Kreation & Realisierung von effektiven Ideen, die begeistern: für B2B & B2C, online & offline #weilwireskönnen"
+url: "epcommunication" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+  jobs:
+    output: true
+
+_comments:
+  tags: "Auflistung mit Komma trennen"

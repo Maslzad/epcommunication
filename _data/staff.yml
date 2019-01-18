@@ -1,0 +1,96 @@
+- name: Emitis Pohl
+  position: CEO
+  description: >-
+    Das Herz und die Seele. Königin des Networkings. Verhandlungsexpertin.
+    Markenzeichen: rot, EP-rot. Temperamentvoll, passioniert, ehrlich,
+    transparent, zielstrebig – aufopfernd für ihre Kunden.
+  tags:
+    - CIVD
+    - caravaning-info.de
+    - Madonna
+    - TOTAL
+    - FDP
+    - VITERRA
+    - Sony
+    - '#LeGrand'
+  wortpaar_path: /uploads/ehrlich-passioniert-pos.png
+  image_path: /uploads/emi.jpg
+  gif_path: /uploads/emi.gif
+  show: true
+- name: Jochem Wahl
+  position: Creative Director
+  description: >-
+    Old but gold. Kreativer durch und durch. Regisseur. Produzent. Jahrzehnte
+    Film-, Kino- und TV-Spots.  Konzepte sind seine Stärke. Probleme kennt er
+    nicht. Er löst sie.
+  tags:
+  wortpaar_path: /uploads/einfallsreich-pragmatisch-pos.png
+  image_path: /uploads/jochen.jpg
+  gif_path: /uploads/jochen.gif
+  show: false
+- name: Iris Lück
+  position: Market Research & Strategic Marketing Manager
+  description: >-
+    Die, die immer (markt-) forscht. Unüberlegte Entscheidungen kennt sie nicht.
+    Mit Kampagnen, Strategien und Konzepten setzt sie effizient und
+    wirkungsstark am Kundenzahn der Zeit an.
+  tags:
+  wortpaar_path: /uploads/echt-punktgenau-pos.png
+  image_path: /uploads/iris.jpg
+  gif_path: /uploads/iris.gif
+  show: true
+- name: Veronika Dohmen
+  position: Senior PR Managerin
+  description: >-
+    Der Ruhepol. Ihre Pressetexte sind genauso wie sie – auf den Punkt. Beste
+    Kontakte zu Journalisten zeichnen sie genauso aus wie umfangreiches
+    Fachwissen.
+  tags:
+  wortpaar_path: /uploads/entspannt-pragmatisch-pos.png
+  image_path: /uploads/veronika.jpg
+  gif_path: /uploads/veronika.gif
+  show: true
+- name: Jana Hohlfinger
+  position: PR Manager & Leitung EP-Startup
+  description: >-
+    Charmante Schreibabteilung. Ob Presse- oder Werbetexte, Slogans oder
+    redaktionelle Beiträge. Organisierter Kalender auf zwei Beinen. Hat einen
+    heißen Draht zu Kunden, Lieferanten und Partnern. Brennt für Startups.
+  wortpaar_path: /uploads/eloquent-problemloesend-pos.png
+  tags:
+  image_path: /uploads/jana.jpg
+  gif_path: /uploads/jana.gif
+  show: true
+- name: Michel-Ramon Bollmann
+  position: Project Manager Marketing & Event
+  description: >-
+    Liebenswerter Dickschädel. Geht für Kunden mit dem Kopf durch die Wand.
+    Zieht als Projektleiter alle Fäden. Hat einen Sinn für das große Ganze ohne
+    das Kleine zu übersehen. Anpacken statt Delegieren.
+  tags:
+  wortpaar_path: /uploads/entsetzlich-proaktiv-pos.png
+  image_path: /uploads/michael.jpg
+  gif_path: /uploads/michael.gif
+  show: false
+- name: Sophia Bolland
+  position: Event & PR Manager
+  description: >-
+    Sonnenschein der Agentur. Liest ihren Kunden wie keine andere die Wünsche
+    von den Augen ab. Kreative Querdenkerin. Hat den Blick fürs Detail. Filter,
+    Hashtags und Co.
+  tags:
+  wortpaar_path: /uploads/empathisch-pfiffig-pos.png
+  image_path: /uploads/sophia-2.jpg
+  gif_path: /uploads/sophia-2.gif
+  show: true
+- name: Michael Vetter
+  position: Kommunikations- und Rhetoriktrainer
+  description: >-
+    Rheinische Frohnatur mit Hingabe zu zielorientierter, klarer und
+    unmissverständlicher Kommunikation. Motivator, Coach, Moderator. Hinhören
+    statt Zuhören. Findet immer eine Lösung. Und zwar eine Gute.
+  tags:
+  wortpaar_path: /uploads/extrem-praesent-pos.png
+  image_path: /uploads/michael-v.jpg
+  gif_path: /uploads/michael-v.gif
+  show: true
