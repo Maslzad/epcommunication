@@ -3,9 +3,12 @@ title: Die Full Service Werbeagentur Köln – ep-communication.de
 
 description: "Strategie, Kreation & Realisierung von effektiven Ideen, die begeistern: für B2B & B2C, online & offline #weilwireskönnen"
 baseurl: "epcommunication" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
 
 collections:
   projects:
